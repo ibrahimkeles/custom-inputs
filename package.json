@@ -1,0 +1,11 @@
+{
+  "name": "custom-inputs",
+  "version": "1.0.0",
+  "description": "Custom inputs for your interface",
+  "main": "custom-inputs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ibrahim keles",
+  "license": "ISC"
+}

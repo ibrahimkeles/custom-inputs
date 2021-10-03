@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="custom-inputs.css">
+</head>
+
+<body>
+    <div class="custom-input-box">
+        <input type="text" class="custom-input green" id="firstName">
+        <label for="firstName" class="custom-placeholder green" title="Enter your first name" data-title="First Name"></label>
+    </div>
+    <div class="custom-input-box">
+        <input type="number" class="custom-input red" id="age">
+        <label for="age" class="custom-placeholder red" title="Enter your age" data-title="Age"></label>
+    </div>
+    <div class="custom-input-box">
+        <input type="email" class="custom-input" id="email">
+        <label for="email" class="custom-placeholder" title="Enter your email example" data-title="Email"></label>
+    </div>
+    <div class="custom-input-box">
+        <textarea id="description" class="custom-input textarea"></textarea>
+        <label for="description" class="custom-placeholder" title="Enter your description"
+            data-title="Description"></label>
+    </div>
+    <div class="custom-input-box">
+        <select name="" id="supplier" class="custom-input">
+            <option value=""></option>
+            <option value="1">Ahmet</option>
+            <option value="1">Mehmet</option>
+        </select>
+        <label for="supplier" class="custom-placeholder" title="Select Supplier" data-title="Supplier"></label>
+    </div>
+    <div class="custom-radio-box">
+        <div class="radio-group-box">
+            <input class="custom-input-radio" type="radio" id="male" name="radio-group" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div class="radio-group-box">
+            <input class="custom-input-radio" type="radio" id="female" name="radio-group" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="radio-group-box">
+            <input class="custom-input-radio" type="radio" id="other" name="radio-group" value="other">
+            <label for="other">Other</label>
+        </div>
+    </div>
+    <div class="custom-chechbox-box">
+        <div class="checkbox-group-box">
+            <input type="checkbox" id="html" class="custom-input-checkbox">
+            <label for="html">Html</label>
+        </div>
+        <div class="checkbox-group-box">
+            <input type="checkbox" id="css" class="custom-input-checkbox">
+            <label for="css">Css</label>
+        </div>
+        <div class="checkbox-group-box">
+            <input type="checkbox" id="js" class="custom-input-checkbox">
+            <label for="js">Js</label>
+        </div>
+    </div>
+    <div class="custom-button-box">
+        <button class="custom-button">Test</button>
+    </div>
+
+
+
+
+
+    <script src="custom-inputs.js"></script>
+</body>
+
+</html>
